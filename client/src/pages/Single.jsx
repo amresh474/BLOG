@@ -44,7 +44,6 @@ const Single = () => {
     const doc = new DOMParser().parseFromString(html, "text/html")
     return doc.body.textContent
   }
-console.log("currentUser",currentUser);
   return (
     <div className="single">
       <div className="content">
