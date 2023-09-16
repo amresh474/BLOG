@@ -1,10 +1,10 @@
 import { createPool } from 'mysql2/promise';
 
 const config = {
-    host: 'localhost',
-    user: 'root',
-    password: 'Amresh@#$474',
-    database: 'blog'
+    host: process.env.HOST,
+    user: process.env.USER,
+    password: process.env.PASSWORD,
+    database: process.env.DATABASE
 }
 
 const pool = createPool(config);
