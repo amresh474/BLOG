@@ -1,0 +1,4 @@
+**/node_modules/
+**/.git
+**/REDME.md
+**/.env

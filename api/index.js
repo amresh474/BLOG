@@ -38,6 +38,6 @@ app.post("/api/upload", upload.single("file"), function (req, res) {
 
 
 
-app.listen(8800, () => {
-    console.log("Connected!");
+app.listen(process.env.PORT, () => {
+    console.log(`server start at port ${process.env.PORT}`);
   });
